@@ -1,0 +1,74 @@
+# Assignment Question
+
+Write a function
+
+total_equal_sides(ax, ay, bx, by, cx, cy, dx, dy):
+
+that consumes eight integers: ax and ay (the first vertex), bx and by (the second vertex), cx and cy (the third vertex), and dx and dy (the fourth vertex); all corresponding to points on the Cartestian plane. The function total_equal_sides returns the number of sides
+of the quadrilateral formed by the previous vertices that have the same length. Please note that the coordinates will be listed so the first four coordinates correspond to a side of the quadrilateral, the four middle coordinates to a second side, the four end coordinates
+a third side, and the two coordinates at the beginning and end make up a fourth side, all of a non-degenerate quadrilateral (i.e., the input we will test your function on will correspond to genuine quadrilaterals). 
+
+Example 1: total_equal_sides(30, 30, 10, -10, -30, 20, -20, 30) => 2
+Example 2: total_equal_sides(60, 10, 10, 10, 40, -15, 60, -15) => 0
+Example 3: total_equal_sides(60, 10, 10, 10, 10, -15, 60, -15) => 2
+
+# My Code Below!
+
+import check
+
+
+def squared_side_length(x1, y1, x2, y2):
+  '''
+  Returns the squared side length of a polygon from vertices (x1, y1) and 
+  (x2, y2) 
+  
+  side_length: Int Int Int Int -> Int 
+  '''
+  return (x1 - x2)**2 + (y1 - y2)**2 
+  
+
+def total_equal_sides(ax, ay, bx, by, cx, cy, dx, dy):
+  '''
+  Returns the number of sides of the quadrilateral formed by 4 pairs of 
+  vertices: (ax, ay) and (bx, by), (bx, by) and (cx, cy), (cx, cy) and (dx, dy),
+  and (ax, ay) and (dx, dy) that have the same length 
+  
+  total_equal_sides: Int Int Int Int Int Int Int Int -> Nat 
+  
+  Examples: 
+  total_equal_sides(30, 30, 10, -10, -30, 20, -20, 30) => 2 
+  total_equal_sides(60, 10, 10, 10, 40, -15, 60, -15) => 0
+  total_equal_sides(60, 10, 10, 10, 10, -15, 60, -15) => 2 
+  '''
+  side_1 = squared_side_length(ax, ay, bx ,by)
+  side_2 = squared_side_length(bx, by, cx, cy)
+  side_3 = squared_side_length(cx, cy, dx, dy)
+  side_4 = squared_side_length(ax, ay, dx, dy)
+  
+  if (side_1 != side_2) and (side_1 != side_3) and (side_1 != side_4) and \
+  (side_2 != side_3) and (side_2 != side_4) and (side_3 != side_4):
+    return 0
+  elif (side_1 == side_2) and (side_1 == side_3) and (side_1 == side_4):
+    return 4 
+  elif (side_1 == side_2 == side_3) or (side_2 == side_3 == side_4) or \
+  (side_1 == side_3 == side_4) or (side_1 == side_2 == side_4):
+    return 3 
+  elif (side_1 == side_2) or (side_1 == side_3) or (side_1 == side_4) or \
+  (side_2 == side_3) or (side_2 == side_4) or (side_3 == side_4):
+    return 2 
+  
+##Examples:
+check.expect("Markus Basic Test:", 
+          total_equal_sides(30, 30, 10, -10, -30, 20, -20, 30), 2)
+check.expect("Example #1", 
+          total_equal_sides(60, 10, 10, 10, 40, -15, 60, -15), 0)
+check.expect("Example #2",
+          total_equal_sides(60, 10, 10, 10, 10, -15, 60,- 15), 2)
+          
+##Tests:
+check.expect("No Sides Equal", 
+          total_equal_sides(10, 10, 20, 20, 40, 40, 80, 80), 0)
+check.expect("All Sides Equal",
+          total_equal_sides(10, 10, 10, 10, 10, 10, 10, 10), 4)
+check.expect("Three Sides Equal",
+          total_equal_sides(20, 20, 15, 15, 10, 10, 5, 5), 3)
