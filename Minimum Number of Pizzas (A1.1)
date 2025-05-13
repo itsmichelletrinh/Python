@@ -1,0 +1,51 @@
+# Assignment Question
+Write a Python function
+
+how_many_pizzas(slices_veg, slices_meat, slices_deluxe)
+         
+that consumes three natural numbers: slices_veg, slices_meat, and slices_deluxe; and returns a natural number corresponding to the minimum number of pizzas to order, under the assumption that each pizza contains exactly 8 slices, all of which must be the same type (no half-and-half pizzas are allowed, etc.).
+
+Example:
+
+how_many_pizzas(3, 16, 7) => 7
+Explanation: We require at least 1 vegetarian, 2 meat, and 7 deluxe pizzas.
+
+# My Code Below!
+
+##
+## ***************************************************
+##     Michelle Trinh
+##     CS 116 Fall 2023
+##     Assignment 01, Problem 1
+## ***************************************************
+##
+
+import check
+import math
+
+
+#Constants
+max_pizza_slices = 8
+
+def how_many_pizzas(slices_veg, slices_meat, slices_deluxe):
+  '''
+  Returns the minimum number of pizzas to order based on the number of slices
+  of slices_veg, slices_meat, and slices_deluxe
+  
+  how_many_pizzas: Nat Nat Nat -> Nat
+  
+  Examples:
+    how_many_pizzas(3, 16, 435024) => 54381 
+  '''  
+  return math.ceil((slices_veg / max_pizza_slices) + (slices_meat / 
+         max_pizza_slices) + (slices_deluxe / max_pizza_slices))
+
+##Examples:
+check.expect("Example #1, generic case", how_many_pizzas(3, 16, 435024), 54381)
+
+##Tests:
+check.expect("MarkUs Basic Test",how_many_pizzas(3, 16, 0), 3)
+check.expect("Example #1", how_many_pizzas(3, 16, 435024), 54381)
+check.expect("One 0 value", how_many_pizzas(0, 16, 16), 4)
+check.expect("All 0 values", how_many_pizzas(0, 0, 0), 0)
+check.expect("Large values", how_many_pizzas(250000, 500000, 1000), 93875)
