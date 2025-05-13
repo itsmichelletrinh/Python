@@ -1,0 +1,47 @@
+# Assignment Question
+
+Write a function
+
+harmonic(n)
+         
+that consumes a positive integer n and returns the nth harmonic number:
+
+Hn = 1 + 1/2 + 1/3 + ... + 1/n
+
+Note:
+
+As you have seen, there is a limit to the level of recursive calls that can be made in Python. For that reason, we will only test your code with small values of n. You should not add this as restriction of the contract, however.
+
+Examples:
+
+harmonic(3) => 1.8333333... #(1 + 1/2 + 1/3)
+
+# My Code Below!
+
+import check
+
+
+def harmonic(n):
+  '''
+  Returns the nth harmonic number 
+  
+  harmonic: Nat -> Float 
+  Requires:
+    n > 0
+  
+  Examples:
+    harmonic(3) => 1.8333333
+    harmonic(2) => 1.5
+    harmonic(1) => 1.0
+  '''
+  if n == 1:
+    return 1.0
+  return 1/n + harmonic(n-1)
+
+##Examples:
+check.within("Provided Example", harmonic(3), 1.8333333, 0.00001)
+check.within("Generic Recursive Case", harmonic(2), 1.5, 0.00001)
+check.within("Base Case", harmonic(1), 1.0, 0.00001)
+
+##Tests:
+check.within("Slightly Larger n", harmonic(10), 2.92897, 0.00001)
