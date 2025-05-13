@@ -12,14 +12,6 @@ Explanation: We require at least 1 vegetarian, 2 meat, and 7 deluxe pizzas.
 
 # My Code Below!
 
-##
-## ***************************************************
-##     Michelle Trinh
-##     CS 116 Fall 2023
-##     Assignment 01, Problem 1
-## ***************************************************
-##
-
 import check
 import math
 
