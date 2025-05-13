@@ -1,3 +1,5 @@
+# Assignment Question
+
 In this assignment we will be detecting plagiarism in English essays. This will be done in several stages.
 
 Before we can even begin comparing text, we must pre-process it so that we will not be fooled by extra commas, OdD cAsEs, etc.
@@ -79,13 +81,8 @@ which consumes two strings (file names), and n, a positive integer value. The fu
 
 For testing, make sure you include a comment that describes what should be in the input files for your tests for marking purposes. You should also write the results of calling get_ngrams to files "_dummy1.txt" and "_dummy2.txt" (though we won't check these files).
 
-##
-## ***************************************************
-##     Michelle Trinh (20886627)
-##     CS 116 Fall 2023
-##     Assignment 10, Problem 1
-## ***************************************************
-##
+
+# My Code Below! 
 
 import check
 
