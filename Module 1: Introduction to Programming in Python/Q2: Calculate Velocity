@@ -1,32 +1,3 @@
-# Assignment Question
-
-Converting a useful formula to Python.
-
-When dealing with most vehicles, you may want to work out how far you can go on a tank of gas. However, when dealing with rocketry, it’s much more meaningful to work out how much the rocket is able to change its velocity (deltav).
-
-You can work this out from three numbers:
-
-m0, the rocket’s initial mass (including fuel)
-mf, the rocket’s final mass (after burning all fuel)
-isp, the rocket motor’s "specific impulse" (a measurement of efficiency)
-Given these values, you can compute deltav using the following equation:
-
-deltav = isp * g0 * ln(m0/mf)
-
-where g0 is standard gravity (9.80665m/s^2).
-
-Write a Python function
-
-delta_v(m0, mf, isp)
-         
-which consumes three positive integers m0, mf, and isp representing the values above and returns the value for deltav.
-
-Example:
-
-delta_v(7, 7, 320) => 0.0
-
-# My Code Below! 
-
 import check
 import math
 
