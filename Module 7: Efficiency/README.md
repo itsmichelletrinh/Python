@@ -129,7 +129,7 @@ rl_encode('7') => '7'
 rl_encode("aa") => "2a"
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%207%3A%20Efficiency/Q1%3A%20Run-Length%20Encoding.md).
 
 ***
 
@@ -162,6 +162,6 @@ moving_average([20, 18, 13, 16, 25, 22, 9], 2) => [19.0, 15.5, 14.5, 20.5, 23.5,
 
 When using `check.within` make sure that all of the values in the expected list are `float` values. If you use `19` instead of `19.0` then it will not match.
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%207%3A%20Efficiency/Q2%3A%20Moving%20Average.md).
 
 ***
