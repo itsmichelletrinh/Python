@@ -17,9 +17,9 @@ The following instructions were given to students:
 - Style Guide
 
 ````
-Natural numbers in this course begin at 0.
-Required functions need all design recipe elements. Functions you define (e.g., helper functions) need all
-design recipe elements except for examples and tests.
+- Natural numbers in this course begin at 0.
+- Required functions need all design recipe elements. Functions you define (e.g., helper functions) need all
+  design recipe elements except for examples and tests.
 ````
 
 - Testing
@@ -28,6 +28,7 @@ design recipe elements except for examples and tests.
 Testing must be done using the check module.
 When a function produces a floating point value, you must use check.within for your testing. Unless told
 otherwise, use a tolerance of 0.00001 in your tests.
+
 Test data for all questions will always meet the stated assumptions for consumed values.
 ````
 
@@ -67,7 +68,7 @@ Read each question carefully for additional restrictions.
 ````
 While you may use global constants in your solutions, do not use global variables for anything other
 than testing.
-Read each question carefully for additional restrictions.
+
 The solutions you submit must be entirely your own work. Do not look up either full or partial solutions
 on the Internet or in printed sources.
 
