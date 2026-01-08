@@ -1,4 +1,4 @@
-# Module 5 Assignment Questions
+# Module 6 Assignment Questions
 
 ## 📚 Table of Contents
 - [Instructions](#instructions)
@@ -105,7 +105,7 @@ intersect(L, M)
 intersect([2, 5, 5, 7, 9, 2, 4, 54378], [1, 1, 1, 5, 8, 9, 7]) => [5, 7, 9]
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%206%3A%20Iterative%20Structures%20in%20Python/Q1%3A%20Common%20Integers%20Between%202%20Lists%20with%20Looping.md).
 
 ***
 
@@ -126,7 +126,7 @@ split_list([1, 2, 3, 4, 5, 6, 7, 8, 9], 4) => [[1, 2, 3, 4], [5, 6, 7, 8], [9]]
 split_list([], 49924312) => []
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%206%3A%20Iterative%20Structures%20in%20Python/Q2%3A%20Split%20List.md).
 
 ***
 
@@ -175,7 +175,7 @@ Player 2's hand: paper
 Player 2 wins!
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%206%3A%20Iterative%20Structures%20in%20Python/Q3%3A%20Rock%20Paper%20Scissors.md).
 
 ***
 
@@ -204,6 +204,6 @@ and `source` is now
 [1, 4, 1]
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%206%3A%20Iterative%20Structures%20in%20Python/Q4%3A%20Common%20Integers%20in%20All%20Lists.md).
 
 ***
