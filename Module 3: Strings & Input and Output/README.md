@@ -96,7 +96,7 @@ int('3') => 3
 
 **Note:** For this problem you are banned from using the built-in function `oct` which does this conversion for you. You are also banned from using the built-in function `int` to do octal conversions. You may use it in decimal conversions as shown in the hint.
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%203%3A%20Strings%20%26%20Input%20and%20Output/Q1%3A%20%20Octal%20Number%20to%20Integer.md).
 
 ***
 
@@ -162,7 +162,7 @@ and the following is displayed:
 Correct!
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%203%3A%20Strings%20%26%20Input%20and%20Output/Q2%3A%20Number%20Guessing%20Game.md).
 
 ***
 
@@ -189,6 +189,6 @@ proper_caps("THIS IS A TEST 7. of the caps function")
    => "This is a test 7. Of the caps function"
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%203%3A%20Strings%20%26%20Input%20and%20Output/Q3%3A%20Properly%20Capitalize%20a%20String.md).
 
 ***
