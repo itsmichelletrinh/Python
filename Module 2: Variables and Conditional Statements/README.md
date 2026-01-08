@@ -86,13 +86,13 @@ As you have seen, there is a limit to the level of recursive calls that can be m
 harmonic(3) => 1.8333333... #(1 + 1/2 + 1/3)
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%202%3A%20Variables%20and%20Conditional%20Statements/Q1%3A%20Harmonic%20Numbers.md).
 
 ***
 
 ## Question #2 and Solution
 
-**2.Write a function**
+**2. Write a function**
 
 ````python
 total_equal_sides(ax, ay, bx, by, cx, cy, dx, dy):
@@ -135,13 +135,13 @@ However, since y=x implies that sqrt(y) = sqrt(x), you may compare squared side 
 
 <img width="262" height="34" alt="image" src="https://github.com/user-attachments/assets/9be0143b-bac8-4615-a834-a51b0e13f48d" />
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%202%3A%20Variables%20and%20Conditional%20Statements/Q2%3A%20Total%20Quadrilateral%20Sides%20With%20Same%20Length.md).
 
 ***
 
 ## Question #3 and Solution
 
-**3.Write a function**
+**3. Write a function**
 
 ````python
 total_prime_factors(n)
@@ -160,6 +160,6 @@ total_prime_factors(10)  => 2    # 2 and 5
 
 As you have seen, there is a limit to the level of recursive calls that can be made in Python. For that reason, we will only test your code with small values of `n`. You should not add this as restriction of the contract, however.
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%202%3A%20Variables%20and%20Conditional%20Statements/Q3%3A%20Total%20Prime%20Factors.md).
 
 ***
