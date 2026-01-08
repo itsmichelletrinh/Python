@@ -63,7 +63,7 @@ on the Internet or in printed sources.
 
 Write a Python function
 
-````
+````python
 how_many_pizzas(slices_veg, slices_meat, slices_deluxe)
 ````
          
@@ -71,7 +71,7 @@ that consumes three natural numbers: `slices_veg`, `slices_meat`, and `slices_de
 
 Example:
 
-````
+````python
 how_many_pizzas(3, 16, 7) => 7
 ````
 
@@ -79,7 +79,7 @@ how_many_pizzas(3, 16, 7) => 7
 
 **Hint**: You will find the function `math.ceil` useful.
 
-Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%201%3A%20Introduction%20to%20Programming%20in%20Python/Q1%3A%20Minimum%20Number%20of%20Pizzas).
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%201%3A%20Introduction%20to%20Programming%20in%20Python/Q1%3A%20Minimum%20Number%20of%20Pizzas.md).
 
 ***
 
@@ -102,7 +102,7 @@ where `g0` is standard gravity (9.80665m/s2).
 
 **2. Write a Python function**
 
-````
+````python
 delta_v(m0, mf, isp)
 ````
          
@@ -110,7 +110,7 @@ delta_v(m0, mf, isp)
 
 **Example**:
 
-````
+````python
 delta_v(7, 7, 320) => 0.0
 ````
 
@@ -120,7 +120,7 @@ Note that this is a floating point value, so you must use check.within for your 
 
 **Hint**: You will find the function `math.log` useful.
 
-Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%201%3A%20Introduction%20to%20Programming%20in%20Python/Q2%3A%20Calculate%20Velocity).
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%201%3A%20Introduction%20to%20Programming%20in%20Python/Q2%3A%20Calculate%20Velocity.md).
 
 ***
 
@@ -132,7 +132,7 @@ This is commonly done by taking an existing number (e.g. a bank account number) 
 
 **3. Write the Python function**
 
-````
+````python
 add_check(n)
 ````
      
@@ -142,12 +142,12 @@ add_check(n)
 
 **Example**:
 
-````
+````python
 add_check(8675) => 86754
 ````
 
 **Explanation**: Notice that 8+6+7+5=26. This is 4 away from 30, so the check digit must be 4.
 
-Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%201%3A%20Introduction%20to%20Programming%20in%20Python/Q3%3A%20Luhn%20Algorithm).
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%201%3A%20Introduction%20to%20Programming%20in%20Python/Q3%3A%20Luhn%20Algorithm.md).
 
 ***
