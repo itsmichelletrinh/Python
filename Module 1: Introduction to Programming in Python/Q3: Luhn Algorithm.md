@@ -1,3 +1,4 @@
+````python
 import check
 
 
@@ -26,3 +27,4 @@ check.expect("MarkUs Basic Test", add_check(8675), 86754)
 check.expect("One 0 Digit", add_check(8670), 86709)
 check.expect("Many 0 Digits", add_check(8000), 80002)
 check.expect("Large Digits", add_check(9999), 99994)
+````
