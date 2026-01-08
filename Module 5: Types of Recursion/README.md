@@ -113,7 +113,7 @@ alt_max([5,-3, 2, 3 ,-4 ,-3, -7]) => 7
 
 You must use **accumulative recursion** for this question and all recursive functions you write must be accumulative. Solutions using other approaches will receive 0 (ZERO) correctness marks.
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%205%3A%20Types%20of%20Recursion/Q1%3A%20Highest%20Altitude.md).
 
 ***
 
@@ -137,7 +137,7 @@ count_chars("Hello there Number 7", "h") => [1]
 
 You must use **accumulative recursion** for this question and each recursive function you write must be accumulative. Solutions using other approaches will receive 0 (ZERO) correctness marks.
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%205%3A%20Types%20of%20Recursion/Q2%3A%20Count%20Characters.md).
 
 ***
 
@@ -172,6 +172,6 @@ This conversion can be tricky if you don't approach it the right way. It is easi
 divide by the number of 'digits'. Repeat the process to get the second last digit. There are other methods and you are not obligated to use this idea but I recommend trying this approach. Also, it might help to first do at least the above examples by 
 hand to get a handle on the algorithm before coding.
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%205%3A%20Types%20of%20Recursion/Q3%3A%20Convert%20Integers%20to%20Strings%20in%20Any%20Base.md).
 
 ***
