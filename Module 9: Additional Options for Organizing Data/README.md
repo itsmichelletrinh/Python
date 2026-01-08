@@ -111,7 +111,7 @@ largest_edge_group([[0,0],[1,1],[0,2],[-2,3],[-1,2],[-7,-7]]) => 3
 
 Remember, it is not possible to compare `floats` for strict equality, but since the coordinates are integers, the squared distance is too.
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%209%3A%20Additional%20Options%20for%20Organizing%20Data/Q1%3A%20Largest%20Edge%20Group.md).
 
 ***
 
@@ -172,7 +172,7 @@ class Date:
 
 The `add_days` test in your code depends on the `__eq__` magic method working. We'll use our own working equality when we test your `Date` objects for `add_days`.
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%209%3A%20Additional%20Options%20for%20Organizing%20Data/Q2%3A%20Dates.md).
 
 ***
 
@@ -252,6 +252,6 @@ highest_grade(example_list) =>
 
 The order of keys in a dictionary isn't important!
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%209%3A%20Additional%20Options%20for%20Organizing%20Data/Q3%3A%20Courses.md).
 
 ***
