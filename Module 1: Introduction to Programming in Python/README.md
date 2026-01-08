@@ -16,18 +16,18 @@ The following instructions were given to students:
 - Style Guide
 
 ````
-Natural numbers in this course begin at 0. Positive integers start at 1.
-Required functions need all design recipe elements. Functions you define (e.g., helper functions) need all
-design recipe elements except for examples and tests.
+- Natural numbers in this course begin at 0. Positive integers start at 1.
+- Required functions need all design recipe elements. Functions you define (e.g., helper functions) need all
+  design recipe elements except for examples and tests.
 ````
 
 - Testing
 
 ````
-Testing must be done using the check module.
-When a function produces a floating point value, you must use check.within for your testing. Unless told
-otherwise, use a tolerance of 0.00001 in your tests.
-Test data for all questions will always meet the stated assumptions for consumed values.
+- Testing must be done using the check module.
+- When a function produces a floating point value, you must use check.within for your testing. Unless told
+  otherwise, use a tolerance of 0.00001 in your tests.
+- Test data for all questions will always meet the stated assumptions for consumed values.
 ````
 
 - Restrictions
@@ -38,21 +38,21 @@ helper/wrapper functions, as long as they meet the assignment restrictions. Do n
 from later modules (e.g., if statements, dictionaries, loops (for, while, or others), zip, functions with
 default parameters, sorted, anything with sets or enumerators, slicing, indexing (square brackets), string
 methods, and/or lists, ord, chr, try and except). Use only the functions, methods, operations, constants
-and keywords as follows: abs, len, max, and min (however keyword parameters for these functions are
-not allowed)
-Any method or constant in the math module
-Any basic arithmetic operation (+, -, *, /, //, %, **)
-These typecasting operators: int(), str(), float(), and type()
+and keywords as follows:
+- abs, len, max, and min (however keyword parameters for these functions are not allowed)
+- Any method or constant in the math module
+- Any basic arithmetic operation (+, -, *, /, //, %, **)
+- These typecasting operators: int(), str(), float(), and type()
 ````
 
 - Additional Notes
 
 ````
-While you may use global constants in your solutions, do not use global variables for anything other
-than testing.
-Read each question carefully for additional restrictions.
-The solutions you submit must be entirely your own work. Do not look up either full or partial solutions
-on the Internet or in printed sources.
+- While you may use global constants in your solutions, do not use global variables for anything other
+  than testing.
+- Read each question carefully for additional restrictions.
+- The solutions you submit must be entirely your own work. Do not look up either full or partial solutions
+  on the Internet or in printed sources.
 ````
 
 ***
