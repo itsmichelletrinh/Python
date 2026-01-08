@@ -1,18 +1,4 @@
-# Assignment Question
-
-Write a function
-
-total_prime_factors(n)
-         
-that consumes a positive integer n and returns the number of prime factors it has.
-
-Examples:
-
-total_prime_factors(3)   => 1    # 3
-total_prime_factors(10)  => 2    # 2 and 5
-
-# My Code Below!
-
+````python
 import check
 
 
@@ -89,3 +75,4 @@ check.expect("Base Case", total_prime_factors(1), 0)
 ##Tests:
 check.expect("n Is Prime Number", total_prime_factors(2), 1)
 check.expect("Duplicate Prime Factors", total_prime_factors(4), 1)
+````
