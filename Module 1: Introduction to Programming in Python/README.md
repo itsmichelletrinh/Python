@@ -26,7 +26,7 @@ design recipe elements except for examples and tests.
 ````
 Testing must be done using the check module.
 When a function produces a floating point value, you must use check.within for your testing. Unless told
-otherwise, use a tolerance of  in your tests.
+otherwise, use a tolerance of 0.00001 in your tests.
 Test data for all questions will always meet the stated assumptions for consumed values.
 ````
 
