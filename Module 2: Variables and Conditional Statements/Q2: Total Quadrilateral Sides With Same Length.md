@@ -1,19 +1,4 @@
-# Assignment Question
-
-Write a function
-
-total_equal_sides(ax, ay, bx, by, cx, cy, dx, dy):
-
-that consumes eight integers: ax and ay (the first vertex), bx and by (the second vertex), cx and cy (the third vertex), and dx and dy (the fourth vertex); all corresponding to points on the Cartestian plane. The function total_equal_sides returns the number of sides
-of the quadrilateral formed by the previous vertices that have the same length. Please note that the coordinates will be listed so the first four coordinates correspond to a side of the quadrilateral, the four middle coordinates to a second side, the four end coordinates
-a third side, and the two coordinates at the beginning and end make up a fourth side, all of a non-degenerate quadrilateral (i.e., the input we will test your function on will correspond to genuine quadrilaterals). 
-
-Example 1: total_equal_sides(30, 30, 10, -10, -30, 20, -20, 30) => 2
-Example 2: total_equal_sides(60, 10, 10, 10, 40, -15, 60, -15) => 0
-Example 3: total_equal_sides(60, 10, 10, 10, 10, -15, 60, -15) => 2
-
-# My Code Below!
-
+````python
 import check
 
 
@@ -72,3 +57,4 @@ check.expect("All Sides Equal",
           total_equal_sides(10, 10, 10, 10, 10, 10, 10, 10), 4)
 check.expect("Three Sides Equal",
           total_equal_sides(20, 20, 15, 15, 10, 10, 5, 5), 3)
+````
