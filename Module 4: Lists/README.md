@@ -5,7 +5,7 @@
 - [Question #1 and Solution](#question-1-and-solution)
 - [Question #2 and Solution](#question-2-and-solution)
 - [Question #3 and Solution](#question-3-and-solution)
-- [Question #4 and Solution](question-4-and-solution)
+- [Question #4 and Solution](#question-4-and-solution)
 
 Please note that all questions are created by University of Waterloo, School of Computer Science for the CS116: Introduction to Computer Science 2 course.
 
@@ -101,7 +101,7 @@ intersect(L, M)
 intersect([2, 5, 5, 7, 9, 2, 4, 54378], [1, 1, 1, 5, 8, 9, 7]) => [5, 7, 9]
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%204%3A%20Lists/Q1%3A%20Common%20Integers%20Between%202%20Lists%20with%20Recursion.md).
 
 ***
 
@@ -125,7 +125,7 @@ intersect(L, M)
 intersect([2, 5, 5, 7, 9, 2, 4, 54378], [1, 1, 1, 5, 8, 9, 7]) => [5, 7, 9]
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%204%3A%20Lists/Q2%3A%20Common%20Integers%20Between%202%20Lists%20with%20Abstract%20List%20Functions.md).
 
 ***
 
@@ -154,7 +154,7 @@ and `L` is mutated to
 [0, 6, 0, -2, -10]
 ````
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%204%3A%20Lists/Q3%3A%20Mutate%20a%20List%20to%20Contain%20Smaller%20or%20Equal%20Numbers%20as%20Another%20List.md).
 
 ***
 
@@ -195,6 +195,6 @@ create_minesweeper_grid(5, 3, [[1,1], [2,2], [1,2]])
 
 Consider grouping repetitive operations in a helper function to improve the readability of your code.
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%204%3A%20Lists/Q4%3A%20Minesweeper.md).
 
 ***
