@@ -1,3 +1,4 @@
+````python
 import check
 import math
 
@@ -27,3 +28,4 @@ check.expect("Example #1", how_many_pizzas(3, 16, 435024), 54381)
 check.expect("One 0 value", how_many_pizzas(0, 16, 16), 4)
 check.expect("All 0 values", how_many_pizzas(0, 0, 0), 0)
 check.expect("Large values", how_many_pizzas(250000, 500000, 1000), 93875)
+````
