@@ -16,18 +16,18 @@ The following instructions were given to students:
 - Style Guide
 
 ````
-Natural numbers in this course begin at 0.
-Required functions need all design recipe elements. Functions you define (e.g., helper functions) need all
-design recipe elements except for examples and tests.
+- Natural numbers in this course begin at 0.
+- Required functions need all design recipe elements. Functions you define (e.g., helper functions) need all
+  design recipe elements except for examples and tests.
 ````
 
 - Testing
 
 ````
-Testing must be done using the check module.
-When a function produces a floating point value, you must use check.within for your testing. Unless told
-otherwise, use a tolerance of 0.00001 in your tests.
-Test data for all questions will always meet the stated assumptions for consumed values.
+- Testing must be done using the check module.
+- When a function produces a floating point value, you must use check.within for your testing. Unless told
+  otherwise, use a tolerance of 0.00001 in your tests.
+- Test data for all questions will always meet the stated assumptions for consumed values.
 ````
 
 - Restrictions
@@ -39,30 +39,30 @@ functions, as long as they meet the assignment restrictions. Do not use Python c
 with sets or enumerators and/or lists, ord, chr, try and except). Use only the functions, methods, operations,
 constants and keywords as follows:
 
-abs, len, max, and min (however keyword parameters for these functions are not allowed)
-Any method or constant in the math module
-Any basic arithmetic or comparison operations (+, -, *, /, //, %, **, <, <=, ==, != >, >=)
-Any basic logical operators (not, and, or)
-These typecasting operators: int(), str(), float(), bool(), and type()
-if statements (including elif and else)
-String slicing and indexing as well as string operations using the operators above.
-String methods: capitalize, count, endswith, find, index, isalnum, isalpha, isdecimal, isdigit, islower,
-isnumeric, isspace, istitle, isupper, lower, lstrip, replace, rfind, rindex, rstrip, startswith, strip,
-swapcase, title, upper, zfill
-The operation in for strings.
-input and print as well as the formatting parameter end and method format. Note that all prompts must match
-exactly in order to obtain marks so ensure that you do not alter these prompts.
-Recursion
+- abs, len, max, and min (however keyword parameters for these functions are not allowed)
+- Any method or constant in the math module
+- Any basic arithmetic or comparison operations (+, -, *, /, //, %, **, <, <=, ==, != >, >=)
+- Any basic logical operators (not, and, or)
+- These typecasting operators: int(), str(), float(), bool(), and type()
+- if statements (including elif and else)
+- String slicing and indexing as well as string operations using the operators above.
+- String methods: capitalize, count, endswith, find, index, isalnum, isalpha, isdecimal, isdigit, islower,
+  isnumeric, isspace, istitle, isupper, lower, lstrip, replace, rfind, rindex, rstrip, startswith, strip,
+  swapcase, title, upper, zfill
+- The operation in for strings.
+- input and print as well as the formatting parameter end and method format. Note that all prompts must match
+  exactly in order to obtain marks so ensure that you do not alter these prompts.
+- Recursion
 ````
 
 - Additional Notes
 
 ````
-While you may use global constants in your solutions, do not use global variables for anything other
-than testing.
-Read each question carefully for additional restrictions.
-The solutions you submit must be entirely your own work. Do not look up either full or partial solutions
-on the Internet or in printed sources.
+- While you may use global constants in your solutions, do not use global variables for anything other
+  than testing.
+- Read each question carefully for additional restrictions.
+- The solutions you submit must be entirely your own work. Do not look up either full or partial solutions
+  on the Internet or in printed sources.
 ````
 
 ***
