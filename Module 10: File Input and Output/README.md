@@ -222,6 +222,6 @@ document_similarity(filename1, filename2, n)
 For testing, make sure you include a comment that describes what should be in the input files for your tests for marking purposes. You should also write the results of calling `get_ngrams` to files 
 "`_dummy1.txt`" and "`_dummy2.txt`" (though we won't check these files).
 
-Please click on the following link for my [solution]().
+Please click on the following link for my [solution](https://github.com/itsmichelletrinh/Python/blob/main/Module%2010%3A%20File%20Input%20and%20Output/Q1%3A%20Detecting%20Plagiarism.md).
 
 ***
