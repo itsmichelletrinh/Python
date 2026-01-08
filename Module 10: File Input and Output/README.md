@@ -90,7 +90,7 @@ This assignment consists of a large single "project" question with multiple part
 
 In this assignment we will be detecting plagiarism in English essays. This will be done in several stages.
 
-### Part A
+## Part A
 
 Before we can even begin comparing text, we must pre-process it so that we will not be fooled by extra commas, OdD cAsEs, etc.
 
@@ -121,7 +121,7 @@ The capitals are replaced with lower case; the exclamation mark, period, and sin
 
 **For full correctness marks your function should be O(n) where n is the length of the string.**
 
-### Part B
+## Part B
 
 Once the document has been processed, we must break it into something called "n-grams." An n-gram is a length n substring.
 
